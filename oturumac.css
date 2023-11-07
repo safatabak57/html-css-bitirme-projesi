@@ -1,0 +1,139 @@
+.arkaplan {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 53%, rgba(42, 176, 22, 1) 100%);
+    height: 850px;
+    width: 100%;
+}
+
+.logo {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 35%;
+    margin: 25px;
+}
+
+.orta-yazi ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 15px 0;
+    padding: 0;
+}
+
+.orta-yazi .block {
+    height: 30px;
+    width: 100px;
+    border: 1px solid gray;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    float: left;
+}
+
+.block a {
+    text-decoration: none;
+    color: white;
+}
+
+/* //ara */
+.oturumac {
+    background-color: black;
+    border: 2px solid white;
+    width: 25%;
+    margin-left: 37.5%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 50px;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+}
+
+.eposta-parola{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eposta-parola input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #15500c;
+    color: white;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.altyazı {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.altyazı p {
+    margin-right: 25px;
+}
+
+.altyazı i {
+    margin-right: 25px;
+}
+
+.altyazı a {
+    color: white;
+}
+
+@media only screen and (max-width: 615px)  {
+    .arkaplan{
+        height: 700px;
+    }
+    .orta-yazi ul{
+        padding-left: 0;
+    }
+    .orta-yazi ul li{
+        width: 960px;
+    }
+
+    .oturumac{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .altyazı{
+       width: 100%; 
+       font-size: 12px;
+       justify-content: left;
+    }
+
+    .altyazı p{
+        font-size: 10px;
+        width: 25%;
+    }
+
+    .altyazı a:first-of-type{
+        font-size: 8px;
+        width: 30%;
+    }
+}
